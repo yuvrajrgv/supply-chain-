@@ -8,10 +8,7 @@
 --   - Revenue and profit are line-level measures.
 --   - Delivery and cancellation metrics use distinct order_id values.
 --
--- Notes:
---   - customer_id is not available because the source data was anonymized.
---   - order_profit_per_order is treated as the supplied profit proxy.
---   - Shipping-canceled orders are excluded from completed-delivery rates.
+
 -- =====================================================================
 
 USE supply_chain_analytics;
